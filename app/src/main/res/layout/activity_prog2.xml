@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prog2"
+    tools:openDrawer="start"
+    android:background="@color/grisClaro"
+
+    >
+    <!-- activity_main.xml o el nombre de tu layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:orientation="horizontal">
+
+        <include layout="@layout/card_row"/>
+
+    </ScrollView>
+
+
+
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:ignore="MissingConstraints">
+      <androidx.coordinatorlayout.widget.CoordinatorLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+
+          >
+
+          <com.google.android.material.appbar.AppBarLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/gris">
+
+              <androidx.appcompat.widget.Toolbar
+                  android:id="@+id/newtoolbar"
+                  android:layout_width="match_parent"
+                  android:layout_height="?attr/actionBarSize"
+                  android:background="@android:color/transparent"
+                  android:elevation="4dp"
+                  android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+                  app:title="Volver"
+                  app:titleTextColor="@color/white" />
+
+          </com.google.android.material.appbar.AppBarLayout>
+
+
+
+      </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+  </FrameLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

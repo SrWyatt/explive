@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Stream" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/gris</item>
+        <item name="colorSecondary">@color/gris</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="NotificationStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Define el color de fondo de las notificaciones -->
+        <item name="android:colorBackground">@color/black</item>
+        <!-- Otras propiedades relacionadas con notificaciones -->
+    </style>
+
+
+
+    <style name="Theme.Stream" parent="Base.Theme.Stream" />
+
+    <style name="dialogStyle" parent="Theme.AppCompat.Dialog">
+        <!-- Cambiar el color de fondo del cuadro de diálogo -->
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- Cambiar el color del texto del título del cuadro de diálogo -->
+        <item name="android:textColorPrimary">@color/black</item>
+
+        <!-- Cambiar el color del texto del contenido del cuadro de diálogo -->
+        <item name="android:textColor">@color/black</item>
+
+        <!-- Cambiar el color del botón positivo del cuadro de diálogo -->
+        <item name="colorAccent">@color/gris</item>
+
+        <!-- Cambiar el color del botón negativo del cuadro de diálogo -->
+        <item name="android:textColorSecondary">@color/gris</item>
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/gris</item>
+        <item name="colorSecondary">@color/gris</item>
+
+        <item name="android:navigationBarColor">@color/gris</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+
+
+
+</resources>
